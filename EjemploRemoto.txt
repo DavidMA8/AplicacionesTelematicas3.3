@@ -1,0 +1,14 @@
+for i=0,5 do
+    print ("Hola " .. i)
+end
+
+
+for x=0,math.pi*10,0.1 do
+    y = math.sin(x)
+    draw(Segment(Point(x*10,y*10), Point(150,150)))
+end
+
+for x=0,math.pi*10,0.1 do
+    y = math.sin(x)
+    draw(Point(x*10,y*10))
+end
